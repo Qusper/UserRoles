@@ -22,6 +22,14 @@ namespace UserRoles
                     //    Console.WriteLine(u.id + "     " + u.login + "     " + u.password + "     " + u.email + "     " + u.fname + "     " + u.lname + "     " + u.role_id);
                     //}
 
+                    //Вывод данных из users через List
+                    //var u = cont.users.ToList();
+                    //Console.WriteLine("ID" + "     " + "Login" + "     " + "Password" + "     " + "Email" + "     " + "First Name" + "     " + "Last Name" + "     " + "Role ID");
+                    //foreach (var user in u) 
+                    //{
+                    //    Console.WriteLine(user.id + "     " + user.login + "     " + user.password + "     " + user.email + "     " + user.fname + "     " + user.lname + "     " + user.role_id);
+                    //}
+
                     //Вывод данных из таблицы role
                     //Console.WriteLine("ID" + "     " + "Role");   //Вывод данных из таблицы users
                     //foreach (var r in cont.roles)
